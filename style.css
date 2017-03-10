@@ -1,21 +1,30 @@
 body {
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-family: Rockwell, Courier Bold, Courier, Georgia, Times, Times New Roman, serif;
     line-height: 36px;
     margin: 0;
     background-color: #568d8f;
     color: #ffffff;
+    font-size: 17px;
+    letter-spacing: 1px;
 }
 form {
-    width: 400px;
+    width: auto;
+    max-width: 500px;
     position: absolute;
     top: 50%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
     background-color: #80b0b3;
+    padding: 25px 0 25px 0;
 }
+form div {
+   padding: 0 25px 0 25px;
+}
+
 .question {
     font-weight: 900;
+    font-size: 20px;
 }
 .answer:hover {
     background-color: #609c9f;
